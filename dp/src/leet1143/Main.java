@@ -30,6 +30,24 @@ class Solution {
         }
         return dp[text1.length()][text2.length()];
     }
+    public int longestCommonSubsequence3(String text1, String text2) {
+        int[] dp = new int[text2.length()+1];
+        for(int i=1;i<=text1.length();i++){
+            int pre = 0;
+            for(int j=1;j<=text2.length();j++){
+                int temp = dp[j];
+                if(text1.charAt(i-1) == text2.charAt(j-1)){
+//                    dp[i][j] = 1 + dp[i-1][j-1];
+                    dp[j] = 1 + pre;
+                }else{
+//                    dp[i][j] = Math.max(dp[i][j-1],dp[i-1][j]);
+                    dp[j] = Math.max(dp[j-1],dp[j]);
+                }
+                pre = temp;
+            }
+        }
+        return dp[text2.length()];
+    }
 }
 public class Main {
     public static void main(String[] args) {
@@ -42,7 +60,7 @@ public class Main {
         };
         Solution solution = new Solution();
         for(String[] pair: array){
-            System.out.println(solution.longestCommonSubsequence2(pair[0],pair[1]));
+            System.out.println(solution.longestCommonSubsequence3(pair[0],pair[1]));
         }
     }
 }
