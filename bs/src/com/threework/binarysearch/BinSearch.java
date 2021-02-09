@@ -40,17 +40,9 @@ public class BinSearch {
     }
 
     public static void main(String[] args){
-        Short sshort = 1;
-        Integer iint = 1;
-        if(sshort.equals(iint)){
-            System.out.println("True");
-        }else{
-            System.out.println("False");
-        }
-//        int[] nums = {1,1,2,2,2,5,7};
-//        System.out.println(commonSearch(nums, 0));
-//        System.out.println(leftMarginSearch(nums, 0));
-//        System.out.println(rightMarginSearch(nums, 0));
-
+        int[] nums = {1,1,2,2,2,5,7};
+        System.out.println(commonSearch(nums, 0));
+        System.out.println(leftMarginSearch(nums, 0));
+        System.out.println(rightMarginSearch(nums, 0));
     }
 }
