@@ -10,10 +10,14 @@ class Solution {
         for(int i=0;i< s1.length();i++) Arrays.fill(memo[i], Integer.MAX_VALUE);
         return dp(s1, 0, s2, 0);
     }
+<<<<<<< HEAD
     /*
         思路：
         dp[i][j] s1[...i]与s2[...j]最小ASCII长度
      */
+=======
+
+>>>>>>> 771df5f64f2cba476d5f4e91d43c939f2d2ca4c0
     public int dp(String s1, int a, String s2, int b){
         if(s1.length() == a){
             int t = 0;
