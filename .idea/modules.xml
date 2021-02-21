@@ -3,10 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/alg.iml" filepath="$PROJECT_DIR$/.idea/alg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/array/array.iml" filepath="$PROJECT_DIR$/array/array.iml" />
       <module fileurl="file://$PROJECT_DIR$/bs/bs.iml" filepath="$PROJECT_DIR$/bs/bs.iml" />
       <module fileurl="file://$PROJECT_DIR$/double_pointer/double_pointer.iml" filepath="$PROJECT_DIR$/double_pointer/double_pointer.iml" />
       <module fileurl="file://$PROJECT_DIR$/dp/dp.iml" filepath="$PROJECT_DIR$/dp/dp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linkedlist/linkedlist.iml" filepath="$PROJECT_DIR$/linkedlist/linkedlist.iml" />
       <module fileurl="file://$PROJECT_DIR$/str/str.iml" filepath="$PROJECT_DIR$/str/str.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tree/tree.iml" filepath="$PROJECT_DIR$/tree/tree.iml" />
     </modules>
   </component>
 </project>
