@@ -31,7 +31,8 @@ class Solution {
         root.right = build(preorder, inorder, pleft+leftSize+1, pright, inorderRoot+1, iright);
         return root;
     }
-}
 
-public class Main {
+    public static void main(String[] args) {
+
+    }
 }
